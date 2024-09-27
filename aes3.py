@@ -36,7 +36,7 @@ def aes_decrypt(ciphertext):
     return decrypted_data.decode('utf-8')
 
 # Example usage
-plaintext = "This is a secret message!"
+plaintext = input("Enter the plain Text")
 ciphertext = aes_encrypt(plaintext)
 print(f"Encrypted: {ciphertext}")
 
