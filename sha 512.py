@@ -1,4 +1,4 @@
-0000000import hashlib
+import hashlib
 
 def sha512_hash_string(input_string):
     # Create a SHA-512 hash object
